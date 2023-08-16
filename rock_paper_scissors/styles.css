@@ -1,0 +1,123 @@
+body {
+  background-color: rgb(36, 36, 36);
+}
+
+h1 {
+  color: yellowgreen;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 50px;
+  margin-top: 70px;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rock {
+  background-color: black;
+  color: yellowgreen;
+  border: yellowgreen;
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  cursor: pointer;
+  font-size: 25px;
+  margin-left: 100px;
+  margin-top: 70px;
+  transition: background-color 1s,
+    color 1s,
+    width 0.5s;
+}
+
+.rock:hover {
+  background-color: yellowgreen;
+  color: black;
+  width: 300px;
+  box-shadow: 0px 1px 20px rgba(255, 255, 255, 0.3);
+}
+
+.rock:active {
+  opacity: 0.7;
+}
+
+.paper {
+  background-color: black;
+  color: yellowgreen;
+  border: yellowgreen;
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  cursor: pointer;
+  font-size: 25px;
+  margin-top: 70px;
+  transition: background-color 1s,
+    color 1s,
+    width 0.5s;
+}
+
+.paper:hover {
+  background-color: yellowgreen;
+  color: black;
+  width: 300px;
+  box-shadow: 0px 1px 20px rgba(255, 255, 255, 0.3);
+}
+
+.paper:active {
+  opacity: 0.7;
+}
+
+.scissors {
+  background-color: black;
+  color: yellowgreen;
+  border: yellowgreen;
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  font-size: 25px;
+  cursor: pointer;
+  margin-right: 100px;
+  margin-top: 70px;
+  transition: background-color 1s,
+    color 1s,
+    width 0.5s;
+}
+
+.scissors:hover {
+  background-color: yellowgreen;
+  color: black;
+  width: 300px;
+  box-shadow: 0px 1px 20px rgba(255, 255, 255, 0.3);
+}
+
+.scissors:active {
+  opacity: 0.7;
+}
+
+p1 {
+  color: yellow;
+  font-size: 25px;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 150px;
+
+
+}
+
+p2 {
+  color: greenyellow;
+  font-size: 25px;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 150px;
+
+}
+
+p3 {
+  color: red;
+  font-size: 25px;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 150px;
+}
