@@ -1,0 +1,90 @@
+body{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: poppins;
+}
+
+.calculator{
+  background-color: #383d47;
+  border-radius: 20px;
+}
+
+.calculator .screen .new{
+  height: 110px;
+  color: #fff;
+  font-size: 50px;
+  text-align: right;
+  margin-bottom: -30px;
+  margin-right: 20px;
+}
+
+.calculator .buttons{
+  display: grid;
+  grid-template-columns: repeat(4, 70px);
+  grid-template-rows: repeat(5, 70px);
+  gap: 1px;
+}
+
+.calculator .buttons button{
+  background-color: #747678;
+  border: none;  
+  font-size: x-large;
+  color: #efefef; 
+}
+
+.calculator .buttons button:nth-child(17){
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.calculator .buttons button:nth-child(-n+3){
+  background-color: #505259; 
+}
+
+.calculator .buttons button:nth-child(4n),
+.calculator .buttons button:nth-child(19){
+  background-color: #f2a43c;
+}
+
+.calculator .buttons button:active{
+  box-shadow: none;
+} 
+
+.calculator .buttons button:nth-child(17){
+  border-radius: 0px 0px 0px 20px;
+}
+
+.calculator .buttons button:nth-child(19) {
+  border-radius: 0px 0px 20px 0px;
+}
+
+.RYG {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.RYG .R {
+  background-color: #ec6a5e;
+  width: 18px;
+  height: 18px;
+  border-radius: 9px;
+  margin-right: 5px;
+}
+
+.RYG .Y {
+  background-color: #f4be4f;
+  width: 18px;
+  height: 18px;
+  border-radius: 9px;
+  margin-right: 5px;
+}
+
+.RYG .G {
+  background-color: #62c554;
+  width: 18px;
+  height: 18px;
+  border-radius: 9px;
+}

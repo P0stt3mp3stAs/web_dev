@@ -99,27 +99,18 @@ p1 {
   color: yellow;
   font-size: 25px;
   text-decoration: underline;
-  text-align: center;
-  margin-top: 150px;
-
-
 }
 
 p2 {
   color: greenyellow;
   font-size: 25px;
   text-decoration: underline;
-  text-align: center;
-  margin-top: 150px;
-
 }
 
 p3 {
   color: red;
   font-size: 25px;
-  text-decoration: underline;
-  text-align: center;
-  margin-top: 150px;
+  text-decoration: underline;;
 }
 
 .output {
